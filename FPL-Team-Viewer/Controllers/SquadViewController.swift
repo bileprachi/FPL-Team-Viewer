@@ -15,7 +15,7 @@ public final class SquadViewController: UIViewController {
     private let searchController: UISearchController = {
         let search = UISearchController(searchResultsController: nil)
         search.obscuresBackgroundDuringPresentation = false
-        search.searchBar.placeholder = "Search player by name"
+        search.searchBar.placeholder = "Search players by name"
         search.searchBar.autocapitalizationType = .none
         return search
     }()
